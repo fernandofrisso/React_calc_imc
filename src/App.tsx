@@ -3,17 +3,20 @@ import styles from "./App.module.css"
 import poweredimage from "./assets/powered.png"
 import {GridItem} from "./components/GridItem/GridItem"
 
-import { levels, calculateImc} from "./helpers/imc";
+import { levels, calculateImc, Level} from "./helpers/imc";
 
 const App = () => {
 
   const [heightField, setHeightField] = useState<number>(0);
   const [weightField, setWeightField] = useState<number>(0);
 
+  const [toShow, setToShow] = useState< Level | null>(null);// o type ou vai ser null , e vai começar como null, pois n tenho nada pra exibir 
+
   const handleCalculateButton = () => {
 
     if(heightField && weightField) { // primeiro vai  verificar se o peso e altura foram preenchidos
 
+      setToShow(calculateImc(heightField , weightField));
 
     } else {
 

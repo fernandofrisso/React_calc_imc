@@ -1,11 +1,11 @@
-import { level } from "../../helpers/imc"
+import { Level } from "../../helpers/imc"
 import styles from "./GridItem.module.css";
 import upImage from "../../assets/up.png"
 import downImage from "../../assets/down.png"
 
 type Props = {
 
-    item: level
+    item: Level
 
 }
 
