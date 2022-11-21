@@ -60,6 +60,12 @@ body {
 
 }
 
+.container .leftSide input:disable{
+
+    opacity: 0.5;
+
+}
+
 .container .leftSide button {
 
     background-color: #227C9D;
@@ -75,9 +81,16 @@ body {
 
 }
 
+
 .container .leftSide button:hover {
 
     opacity: 0.9;
+
+}
+
+.container .leftSide button:disable{
+
+    opacity: 0.5;
 
 }
 

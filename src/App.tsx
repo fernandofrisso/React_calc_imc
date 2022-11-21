@@ -64,7 +64,8 @@ const App = () => {
             placeholder="Digite sua Altura. Ex: 1.5 (em metros)"
             value = {heightField > 0? heightField:""} // Se o heightField for maior que 0, no campo vai aparecer o valor dele, caso contrário, o campo vai fciar vazio ( essa condicional vai impedir que o campo fique taxado com o valor 0)
             onChange = {e => setHeightField(parseFloat(e.target.value))}
-
+            disabled = {toShow ? true:false} // quando toshow tiver alguma coisa, desabilita, caso contrário, não desabilita
+            
             />
 
             <input
@@ -73,10 +74,11 @@ const App = () => {
             placeholder="Digite seu peso. Ex: 75.3 (em kg)"
             value = {weightField > 0? weightField:""} // Se o heightField for maior que 0, no campo vai aparecer o valor dele, caso contrário, o campo vai fciar vazio ( essa condicional vai impedir que o campo fique taxado com o valor 0)
             onChange = {e => setWeightField(parseFloat(e.target.value))}
+            disabled = {toShow ? true:false} // quando toshow tiver alguma coisa, desabilita, caso contrário, não desabilita
 
             />
 
-            <button onClick={handleCalculateButton}>Calcular</button>
+            <button onClick={handleCalculateButton} disabled = {toShow ? true:false}>Calcular</button>
           
           </div>
 
