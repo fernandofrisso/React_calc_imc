@@ -8,6 +8,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.main{
+
+    padding-bottom:50px;
+}
+
 .headerContainer {
 
     max-width: 900px;
@@ -139,4 +144,49 @@ body {
 
     opacity: 0.9;
     
+}
+
+@media (max-width:770px){
+
+    header{
+
+        padding:0 20px;
+    }
+
+    .container{
+
+        padding:0;
+        flex-direction: column;
+
+    }
+
+    .container .leftSide{
+
+        magin-rigth:0;
+
+    }
+
+    .container .rigthtSide{
+
+        magin-left:0;
+        margin-top:50px;
+        
+    }
+
+    .container .rightSide .rightArrow{
+
+        magin-left:0;
+        margin-top:0px;
+        border-radius:10px;
+
+    }
+}
+
+@media (max-width:430px){
+
+   .container .rightSide .grid{
+
+    grid-template-columns: 1fr;
+
+   }
 }
