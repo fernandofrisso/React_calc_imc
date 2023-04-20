@@ -39,7 +39,7 @@ Para rodar a aplicação, execute os próximos passos:
 1. Faça o clone do projeto:
 
 ```bash
-$ git clone https://github.com/
+$ git clone https://github.com/fernandofrisso/React_calc_imc.git
 ```
 
 2. Entre na pasta do projeto:
@@ -72,5 +72,5 @@ Abaixo estão as funcionalidades disponíves na calculadora de IMC.
 
 ## Contato
 
-Vocêe pode entrar em contato através do [e-mail](fernandofrisso@outlook.com)
+Vocêe pode entrar em contato através do [linkedin](https://www.linkedin.com/in/fernandofariasfrisso/) ou pelo E-mail: fernandofrisso@outlook.com
 
