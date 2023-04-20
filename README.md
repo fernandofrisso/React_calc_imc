@@ -70,6 +70,10 @@ Abaixo estão as funcionalidades disponíves na calculadora de IMC.
 
 :heavy_check_mark: Com base no IMC (Índice de massa corporal) obtido, o usuário pode receber 4 tipos de classificações (Magreza, Normal, Sobrepeso, Obesidade).
 
+![image](https://user-images.githubusercontent.com/90481444/233402413-3ac3c508-5299-408b-b3fb-9814632f08c1.png)
+
+![image](https://user-images.githubusercontent.com/90481444/233402561-68c50b57-1824-4099-8fe3-b4e54a00cf9b.png)
+
 ## Contato
 
 Vocêe pode entrar em contato através do [linkedin](https://www.linkedin.com/in/fernandofariasfrisso/) ou pelo E-mail: fernandofrisso@outlook.com
